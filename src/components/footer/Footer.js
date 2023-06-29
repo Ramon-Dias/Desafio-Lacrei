@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import facebook from "../../assets/FacebookLogo.svg"
+import instagram from "../../assets/InstagramLogo.svg"
+import linkedin from "../../assets/LinkedinLogo.svg"
 
 function Footer() {
     return (
@@ -9,9 +12,9 @@ function Footer() {
           <Link to="/profissional">Profissional</Link>
         </nav>
         <div>
-          <img src="../../assets/FacebookLogo.svg" alt="Facebook Logo"/>
-          <img src="../../assets/InstagramLogo.svg" alt="Instagram Logo"/>
-          <img src="../../assets/LinkedinLogo.svg" alt="Linkedin Logo"/>
+          <img src={facebook} alt="Facebook Logo"/>
+          <img src={instagram} alt="Instagram Logo"/>
+          <img src={linkedin} alt="Linkedin Logo"/>
         </div>
         <p>Desafio Front-end Lacrei</p>
       </footer>
