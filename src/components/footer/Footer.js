@@ -14,7 +14,7 @@ gap: 50px;
 bottom: 0px;
 position: fixed;
 border-top: #B0E0D3 1px solid;
-width: 90%;
+width: 93%;
 
   nav {
     display: flex;

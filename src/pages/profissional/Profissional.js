@@ -1,4 +1,4 @@
-import rafiki3 from '../../assets/rafiki2.svg';
+import rafiki3 from '../../assets/rafiki3.svg';
 
 function Profissional() {
     return (
