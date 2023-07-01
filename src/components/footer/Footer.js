@@ -27,7 +27,7 @@ width: 90%;
       color: #1F1F1F;
 
     }:hover {
-      color: #018762;
+      color: #000;
     }
   }
 
