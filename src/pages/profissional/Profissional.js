@@ -1,8 +1,41 @@
 import rafiki3 from '../../assets/rafiki3.svg';
+import styled from "styled-components"
+
+const Profission = styled.section `
+display: flex;
+justify-content: space-between;
+margin-top: 50px;
+margin-right: 50px;
+margin-left: 50px;
+
+  h2{
+    font-family: Nunito;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 80%    
+  }
+
+  p {
+    border-left: #018762 5px solid;
+    padding-left: 20px;
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;    
+    width: 55%  
+  }
+
+
+`;
 
 function Profissional() {
     return (
-      <section>
+      <Profission>
       <div>
         <h2>
         Profissional
@@ -14,7 +47,7 @@ function Profissional() {
       
         <img alt="vetor medica" src={rafiki3}/>
       
-    </section>
+    </Profission>
     );
   }
   
